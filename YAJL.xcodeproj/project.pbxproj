@@ -64,6 +64,24 @@
 		63D6C9231BF124B8007C028C /* twitter_snowflake.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C3CEFB126EAC5700DF710D /* twitter_snowflake.json */; };
 		63D6C93E1BF13587007C028C /* yajl_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D6C93D1BF13587007C028C /* yajl_tree.h */; };
 		63D6C9401BF13590007C028C /* yajl_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C93F1BF13590007C028C /* yajl_tree.c */; };
+		808FAA021F8BA87000843627 /* YAJLiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 808FAA001F8BA87000843627 /* YAJLiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808FAA061F8BA8AF00843627 /* NSObject+YAJL.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BF2D110185B3000C35A81 /* NSObject+YAJL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808FAA071F8BA8AF00843627 /* YAJLGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BF2D610185B3000C35A81 /* YAJLGen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808FAA081F8BA8AF00843627 /* YAJLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C404FE0FE77661003CE908 /* YAJLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808FAA091F8BA8AF00843627 /* YAJLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C405000FE77661003CE908 /* YAJLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808FAA0A1F8BA8C300843627 /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD55126EABC10049CF17 /* yajl.c */; };
+		808FAA0B1F8BA8C300843627 /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD56126EABC10049CF17 /* yajl_alloc.c */; };
+		808FAA0C1F8BA8C300843627 /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD58126EABC10049CF17 /* yajl_buf.c */; };
+		808FAA0D1F8BA8C300843627 /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5B126EABC10049CF17 /* yajl_encode.c */; };
+		808FAA0E1F8BA8C300843627 /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5D126EABC10049CF17 /* yajl_gen.c */; };
+		808FAA0F1F8BA8C300843627 /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5E126EABC10049CF17 /* yajl_lex.c */; };
+		808FAA101F8BA8C300843627 /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD60126EABC10049CF17 /* yajl_parser.c */; };
+		808FAA111F8BA8C300843627 /* yajl_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C93F1BF13590007C028C /* yajl_tree.c */; };
+		808FAA121F8BA8C300843627 /* yajl_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD62126EABC10049CF17 /* yajl_version.c */; };
+		808FAA131F8BA8EE00843627 /* NSObject+YAJL.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2D210185B3000C35A81 /* NSObject+YAJL.m */; };
+		808FAA141F8BA8EE00843627 /* YAJLGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2D710185B3000C35A81 /* YAJLGen.m */; };
+		808FAA151F8BA8EE00843627 /* YAJLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C404FF0FE77661003CE908 /* YAJLDocument.m */; };
+		808FAA161F8BA8EE00843627 /* YAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C405010FE77661003CE908 /* YAJLParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +162,9 @@
 		63D6C93D1BF13587007C028C /* yajl_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_tree.h; sourceTree = "<group>"; };
 		63D6C93F1BF13590007C028C /* yajl_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_tree.c; sourceTree = "<group>"; };
 		63D6C9411BF135ED007C028C /* yajl_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_version.h; sourceTree = "<group>"; };
+		808FA9FE1F8BA87000843627 /* YAJLiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YAJLiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		808FAA001F8BA87000843627 /* YAJLiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAJLiOS.h; sourceTree = "<group>"; };
+		808FAA011F8BA87000843627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -160,6 +181,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				633F87711BF11F4600A465AA /* libYAJL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808FA9FA1F8BA87000843627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +295,7 @@
 			children = (
 				0065977C11BEEF4000E89ABD /* libYAJL.a */,
 				633F876C1BF11F4600A465AA /* Tests.xctest */,
+				808FA9FE1F8BA87000843627 /* YAJLiOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,6 +309,7 @@
 				0052CD4F126EABC10049CF17 /* yajl-2.1.0 */,
 				00C404FD0FE77661003CE908 /* Classes */,
 				00C4056C0FE777B4003CE908 /* Tests */,
+				808FA9FF1F8BA87000843627 /* YAJLiOS */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
@@ -295,6 +325,15 @@
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		808FA9FF1F8BA87000843627 /* YAJLiOS */ = {
+			isa = PBXGroup;
+			children = (
+				808FAA001F8BA87000843627 /* YAJLiOS.h */,
+				808FAA011F8BA87000843627 /* Info.plist */,
+			);
+			path = YAJLiOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +357,18 @@
 				00C3CEE8126EABFF00DF710D /* yajl_common.h in Headers */,
 				00C3CEE9126EABFF00DF710D /* yajl_gen.h in Headers */,
 				00C3CEEA126EABFF00DF710D /* yajl_parse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808FA9FB1F8BA87000843627 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808FAA091F8BA8AF00843627 /* YAJLParser.h in Headers */,
+				808FAA061F8BA8AF00843627 /* NSObject+YAJL.h in Headers */,
+				808FAA021F8BA87000843627 /* YAJLiOS.h in Headers */,
+				808FAA071F8BA8AF00843627 /* YAJLGen.h in Headers */,
+				808FAA081F8BA8AF00843627 /* YAJLDocument.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +410,24 @@
 			productReference = 633F876C1BF11F4600A465AA /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		808FA9FD1F8BA87000843627 /* YAJLiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808FAA051F8BA87000843627 /* Build configuration list for PBXNativeTarget "YAJLiOS" */;
+			buildPhases = (
+				808FA9F91F8BA87000843627 /* Sources */,
+				808FA9FA1F8BA87000843627 /* Frameworks */,
+				808FA9FB1F8BA87000843627 /* Headers */,
+				808FA9FC1F8BA87000843627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YAJLiOS;
+			productName = YAJLiOS;
+			productReference = 808FA9FE1F8BA87000843627 /* YAJLiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -369,6 +438,10 @@
 				TargetAttributes = {
 					633F876B1BF11F4600A465AA = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					808FA9FD1F8BA87000843627 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -389,6 +462,7 @@
 			targets = (
 				0065975811BEEF4000E89ABD /* YAJL iOS */,
 				633F876B1BF11F4600A465AA /* Tests */,
+				808FA9FD1F8BA87000843627 /* YAJLiOS */,
 			);
 		};
 /* End PBXProject section */
@@ -418,6 +492,13 @@
 				63D6C9171BF124B8007C028C /* stream_array1.json in Resources */,
 				63D6C9121BF124B8007C028C /* twitter.json in Resources */,
 				63D6C9161BF124B8007C028C /* error2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808FA9FC1F8BA87000843627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +538,26 @@
 				633F877E1BF11FD400A465AA /* YAJLTestCase.m in Sources */,
 				633F877C1BF11FD400A465AA /* YAJLGenTest.m in Sources */,
 				633F87781BF11FD400A465AA /* TwitterTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808FA9F91F8BA87000843627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808FAA161F8BA8EE00843627 /* YAJLParser.m in Sources */,
+				808FAA0C1F8BA8C300843627 /* yajl_buf.c in Sources */,
+				808FAA121F8BA8C300843627 /* yajl_version.c in Sources */,
+				808FAA0F1F8BA8C300843627 /* yajl_lex.c in Sources */,
+				808FAA0A1F8BA8C300843627 /* yajl.c in Sources */,
+				808FAA111F8BA8C300843627 /* yajl_tree.c in Sources */,
+				808FAA0B1F8BA8C300843627 /* yajl_alloc.c in Sources */,
+				808FAA0E1F8BA8C300843627 /* yajl_gen.c in Sources */,
+				808FAA0D1F8BA8C300843627 /* yajl_encode.c in Sources */,
+				808FAA151F8BA8EE00843627 /* YAJLDocument.m in Sources */,
+				808FAA101F8BA8C300843627 /* yajl_parser.c in Sources */,
+				808FAA141F8BA8EE00843627 /* YAJLGen.m in Sources */,
+				808FAA131F8BA8EE00843627 /* NSObject+YAJL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +730,103 @@
 			};
 			name = Release;
 		};
+		808FAA031F8BA87000843627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = YAJLiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.michaelbaer.YAJLiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		808FAA041F8BA87000843627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = YAJLiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = net.michaelbaer.YAJLiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -655,6 +853,15 @@
 			buildConfigurations = (
 				633F87751BF11F4600A465AA /* Debug */,
 				633F87761BF11F4600A465AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808FAA051F8BA87000843627 /* Build configuration list for PBXNativeTarget "YAJLiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808FAA031F8BA87000843627 /* Debug */,
+				808FAA041F8BA87000843627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
